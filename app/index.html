@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tiny Engineer — Desk Robot Studio</title>
+<link rel="icon" type="image/svg+xml" href="/icon.svg"/><link rel="stylesheet" href="/style.css"/><link rel="stylesheet" href="/refined.css"/>
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="shell" id="shell">
+ <aside class="sidebar" aria-label="Dashboard navigation">
+  <div class="brand" role="banner"><div class="brand-mark">t<span>·</span>e</div><div><b>TINY ENGINEER</b><small>DESK ROBOT STUDIO · V2.1</small></div></div>
+  <div class="sb-label">WORKSPACE</div>
+  <nav id="nav" class="nav" aria-label="Main"></nav>
+  <div class="sidebar-bottom">
+   <div class="color-bar"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+   <div class="small-muted">A focused, local-first build studio.<br/>Your progress stays on your computer.</div>
+   <a class="source-link" href="https://github.com/jamro/tiny-engineer" target="_blank" rel="noopener noreferrer">Original Tiny Engineer project ↗</a>
+  </div>
+ </aside>
+ <div class="main-area"><header class="topbar"><button id="menu" class="menu-btn" aria-label="Toggle sidebar">☰</button><div class="top-breadcrumb"><span class="dot"></span><span>TINY ENGINEER</span><span class="crumb-sep">/</span><span id="current-title">Overview</span></div><div class="top-actions"><span class="live-pill">● Saved to SQLite</span><button class="tiny-btn" data-action="savepoint">✦ Save point</button></div></header>
+  <main id="main" tabindex="-1"><section class="loading">Loading project workspace…</section></main>
+  <footer class="footer">Tiny Engineer companion · based on <a href="https://github.com/jamro/tiny-engineer" target="_blank" rel="noopener noreferrer">jamro/tiny-engineer</a> · Physical checks require real hardware · <span id="footer-date"></span></footer>
+ </div>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input type="file" id="import-file" accept=".json,application/json" hidden/>
+<script src="/concepts.js" defer></script>
+<script src="/app.js" defer></script>
+</body></html>
